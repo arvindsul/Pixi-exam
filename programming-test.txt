@@ -1,0 +1,13 @@
+The following tasks should use the cat image provided in PlaygroundGame.ts.
+You may create any typescript classes and pixi objects you need to help with these tasks.
+You may use gsap to help with the animations.
+
+1. Create a function to layout a row of evenly spaced images
+    a. The image count and spacing should be configurable
+2. Create a function that animates the scale of an image over N seconds
+    a. The image should scale from the center
+    b. The image should scale evenly along both axes and not become distorted
+3. (Bonus) Create a function that animates the scale of the previously created row over N seconds
+    a. The scale should be relative to the center of the entire row
+    b. The images and the spacing between images should all scale evenly
+    c. The layout function should not be used during the animation

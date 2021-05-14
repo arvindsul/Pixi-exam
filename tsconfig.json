@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    // Project options
+    "module": "ESNext",
+    "target": "ES5", // Compatibility provided by polyfill.io
+    "moduleResolution": "node", // Required to find tslib
+    "allowJs": false,
+    "checkJs": false,
+    "downlevelIteration": true,
+    "importHelpers": true, // Depends on tslib
+    "incremental": true,
+    "outDir": "build", // Used when running tsc directly. Ignored by webpack.
+    "removeComments": false,
+    "sourceMap": true,
+    
+    // Strict and linter checks
+    "strict": true,
+    "strictNullChecks": false,
+    "strictPropertyInitialization": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "forceConsistentCasingInFileNames": true,
+    
+    // Advanced
+    "allowUmdGlobalAccess": true, // make typescript work with ProvidePlugin
+    "experimentalDecorators": true,
+    "preserveConstEnums": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    
+    // Debugging
+    "listFiles": false,
+    "listEmittedFiles": false,
+    "traceResolution": false, // Enable to debug module resolution
+  },
+  "include": [
+    "src/**/*.d.ts",
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

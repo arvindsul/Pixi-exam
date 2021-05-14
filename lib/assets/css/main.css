@@ -1,0 +1,14 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: lightskyblue;
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.game-root {
+  background-color: #101010;
+  width:    100vw;
+  height:   100vh;
+}
